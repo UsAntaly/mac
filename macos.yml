@@ -4,6 +4,15 @@ services:
     container_name: macos
     environment:
       VERSION: "15"
+      USERNAME: "antaly"
+      PASSWORD: "antaly520"
+      RAM_SIZE: "32G"
+      CPU_CORES: "8"
+      DISK_SIZE: "400G"
+      DISK2_SIZE: "100G"
+      LANGUAGE: "Chinese"
+      REGION: "zh_CN"       
+      KEYBOARD: "cn"       
     devices:
       - /dev/kvm
       - /dev/net/tun
